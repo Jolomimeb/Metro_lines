@@ -1,14 +1,3 @@
-"""
-File:    metro_lines.py
-Author:  Oritsejolomisan Mebaghanje
-Date:    4/30/2022
-Section: 11
-E-mail:  xz94254@umbc.edu
-Description:
-  This program creates a trip plaanner which tells the user how to get from one station to another.
-  
-"""
-
 def plan_trip(locations, current, end_locations, visited):
     if current == end_locations:
         return [end_locations]
